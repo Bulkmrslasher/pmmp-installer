@@ -22,6 +22,6 @@ By default, `USER` is set to `pmmp` and `REPOSITORY` to `PocketMine-MP`, but you
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 You are free to copy, redistribute, change or expand our work, but you must give credits share it under the same license.
-pmmp-installer by [jarne](https://github.com/jarne/pmmp-installer) `is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+pmmp-installer by [jarne](https://github.com/jarne/pmmp-installer) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 The script is using [php-build-tools](https://github.com/pmmp/php-build-scripts) and [PocketMine-DevTools](https://github.com/pmmp/PocketMine-DevTools) by [pmmp](https://github.com/pmmp).
