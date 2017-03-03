@@ -1,7 +1,7 @@
 # PocketMine-MP install script
 # (C) 2017 by jarne | https://github.com/jarne
 
-# Settings
+# Default settings
 USER="pmmp"
 REPOSITORY="PocketMine-MP"
 BRANCH="master"
@@ -10,6 +10,30 @@ THREADS=4
 
 # Development
 CACHE=false
+
+# Updating settings from arguments
+while getopts "u:r:b:s:t:c" OPTION; do
+  case $OPTION in
+    u)
+      USER=$OPTARG
+      ;;
+    r)
+      REPOSITORY=$OPTARG
+      ;;
+    b)
+      BRANCH=$OPTARG
+      ;;
+    s)
+      SYSTEM=$OPTARG
+      ;;
+    t)
+      THREADS=$OPTARG
+      ;;
+    c)
+      CACHE=true
+      ;;
+  esac
+done
 
 # Create and go into working directory
 echo "Creating working directory ..."

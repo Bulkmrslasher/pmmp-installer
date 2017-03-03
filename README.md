@@ -16,6 +16,14 @@ To run the script, you need to reconfigure it in most cases. The config is store
 `SYSTEM` Your operating system, possible options are `mac`, `mac64`, `linux`, `linux64`  
 `THREADS` How many threads should be used when compiling PHP, depending on your CPU
 
+If you don't want to change the default settings in the file, you can also use arguments when executing the script:
+
+`-u` The GitHub username where the repository is stored  
+`-r` The name of the repository  
+`-b` The branch which should be used to create the PHAR  
+`-s` Your operating system, possible options are `mac`, `mac64`, `linux`, `linux64`  
+`-t` How many threads should be used when compiling PHP, depending on your CPU
+
 By default, `USER` is set to `pmmp` and `REPOSITORY` to `PocketMine-MP`, but you can also change it to a fork of PocketMine-MP and it'll still work for most forks.
 
 ## License & Credits
